@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(30, 30, 185);
+  padding: 0px;
+  font-family: "Roboto Serif", sans-serif;
+}
+.main-padding {
+  padding: 0px 40px;
+}
+.main-div {
+  padding: 40px 100px;
+  display: block;
+  width: 400px;
+  max-width: fit-content;
+  text-align: center;
+  background-color: white;
+  margin: 40px auto;
+}
+.main-div h1 {
+  margin-top: 0px;
+}
+.main-div button {
+  background-color: orange;
+  padding: 10px 20px;
+  border: 0px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  border: 0px;
+  width: 60%;
+  font-size: 1.5em;
+  text-align: center;
+  height: 35%;
+}
+.modal-content p {
+  font-weight: bold;
+}
+.modal-content div {
+  background-color: rgb(192, 192, 192);
+  margin: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.close {
+  margin: 0px;
+  padding: 10px 15px;
+  background-color: orange;
+  color: rgb(3, 3, 3);
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.close:hover,
+#open:hover {
+  cursor: pointer;
+}
